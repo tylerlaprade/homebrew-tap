@@ -1,21 +1,21 @@
 class ClaudeTitle < Formula
   desc "Show Claude Code's status in the terminal tab title."
   homepage "https://github.com/tylerlaprade/claude-title"
-  version "0.1.12"
+  version "0.1.13"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.12/claude-title-aarch64-apple-darwin.tar.xz"
-      sha256 "3d0dc9387bf0090c9dc260f5d2933fa89d898a33e026a0dab271cf31f58f5019"
+      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.13/claude-title-aarch64-apple-darwin.tar.xz"
+      sha256 "21493fe6c856b59a77e98f063bd5c64110e1f78b461aca97964916339608fea3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.12/claude-title-x86_64-apple-darwin.tar.xz"
-      sha256 "fd7137052db5edb5f0a8e8389decc006ace0de12351b5707ca4dd34629c9c27d"
+      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.13/claude-title-x86_64-apple-darwin.tar.xz"
+      sha256 "211442d6d407b785f022b0f434486142ec40d4f39d86e8faab95ca3b5fa6d720"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.12/claude-title-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "eba25649fc2f95bc9c3069b613ffd9585a9b4045b335bfe4cd659f258dbaa4a9"
+      url "https://github.com/tylerlaprade/claude-title/releases/download/v0.1.13/claude-title-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "729d2cedaae962af0f38ce2b1961865d9fcbe9769e5d3604a37fb99a432aa9b3"
     end
   end
   license "GPL-3.0-only"
